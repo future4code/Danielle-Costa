@@ -72,7 +72,7 @@ function validaPar(num) {
 }
 console.log("verifica se é par", validaPar(8))
 
-*/
+
 //EXERCICIO 06C
 function verificaPar (arrayNumeros){
     let pares = []
@@ -83,7 +83,7 @@ function verificaPar (arrayNumeros){
     } return pares.length
 }
 console.log(verificaPar(array))
-/*
+
 //EXERCICIO 06D
 function validaPar (arrayNumeros){
     let pares = []
@@ -94,7 +94,7 @@ function validaPar (arrayNumeros){
     } return pares.length
 }
 console.log(validaPar(array))
-*/
+
 function validaPar2 (arrayNumeros){
     let pares = []
     for(const num of arrayNumeros){
@@ -105,3 +105,72 @@ function validaPar2 (arrayNumeros){
 }
 console.log(validaPar2(array));
 
+//DESAFIOS
+//01
+const parametro = (para) => {
+    console.log(para)
+}
+parametro(80)
+
+//02
+const resul = (n1, n2) =>{
+    const soma = n1 + n2
+    parametro(soma)
+}
+ resul(8, 10)
+*/
+//DESAFIO 2 A
+ const numeros = [0, 8, 23, 16, 10, 15, 41, 12, 13]
+ 
+ function NumerosPares (arrayNumeros){
+     const percorrer = []
+    for(const numero of arrayNumeros){
+        if(numero % 2 === 0){
+            percorrer.push(numero * 2)
+        }
+    }return percorrer
+ }
+
+console.log(NumerosPares(numeros))
+//B
+function retornaMaiorNum(arrayNumeros){ // AJUDA DA AMANDINHA AMADA, EU AINDA NÃO ENTENDI 
+let maiorNumero = arrayNumeros[0] 
+for(let i = 0; i < arrayNumeros.length; i++ ){
+    if (arrayNumeros[i] > maiorNumero){
+    maiorNumero = arrayNumeros[i]
+    }
+} 
+return maiorNumero
+}
+
+console.log(retornaMaiorNum(numeros))
+
+//C
+function retornaIndiceMaior(arrayNumeros){ //estudar mais
+    let indice
+    let maiorNumero = arrayNumeros[0] 
+    for(let i = 0; i < arrayNumeros.length; i++){
+        if (arrayNumeros[i] > maiorNumero){
+        maiorNumero = arrayNumeros[i]
+            indice = i
+        }
+        
+    }
+    return{
+        maiorNumero, 
+        indice
+    }
+}
+console.log(retornaIndiceMaior(numeros))
+
+//D
+
+function inverteArray(arrayNumeros){
+    let arrayinvertido = []
+    for(let i = arrayNumeros.length - 1; i >=0; i--){
+        arrayinvertido.push(arrayNumeros[i])
+    }
+    return arrayinvertido
+}
+
+console.log(inverteArray(numeros))
