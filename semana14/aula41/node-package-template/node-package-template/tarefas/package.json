@@ -1,0 +1,11 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "description": "tarefas do dia",
+  "main": "tarefas.js",
+  "scripts": {
+    "types/nodestart": "node ./tarefas.js"
+  },
+  "author": "\"Danielle Costa\"",
+  "license": "ISC"
+}
