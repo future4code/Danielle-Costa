@@ -1,0 +1,11 @@
+{
+  "name": "nome-idade",
+  "version": "1.0.0",
+  "description": "argumentos são nome e idade",
+  "main": "nome.js",
+  "scripts": {
+    "types/nodestart": "node /nome.js"
+  },
+  "author": "\"Danielle Costa\"",
+  "license": "ISC"
+}

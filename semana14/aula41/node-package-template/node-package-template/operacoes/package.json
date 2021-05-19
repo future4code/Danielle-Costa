@@ -1,0 +1,11 @@
+{
+  "name": "operacoes",
+  "version": "1.0.0",
+  "description": "operações de soma, subtração, multiplicação e divisão",
+  "main": "operacoes.js",
+  "scripts": {
+   " types/nodestart" : "node ./operacoes.js"
+  },
+  "author": "\"Danielle Costa\"",
+  "license": "ISC"
+}

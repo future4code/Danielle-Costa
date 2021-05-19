@@ -1,0 +1,16 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "13.7.7",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "types/nodestart": "node ./index.js"
+  },
+  "author": "\"Danielle Costa\"",
+  "license": "ISC"
+}
